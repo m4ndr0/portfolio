@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav id="nav">
+                <a href="#myWork" class="work">Works</a>
+                <a href="#about">About</a>
+                <a href="#contacts">Contacts</a>
+            </nav>
+        </header>
+        <main>
+            <section class="presention">
+                <h1>Alessandro Tuveri</h1>
+                <p>Front-End Developer based in Barcelona, ES</p>
+                <a href="#contacts" class="getInTouchBtn">Get in touch</a>
+            </section>
+            <section class="myWork index" id="myWork">
+                <h2 id="myWorks">My Works</h2>
+                    <div class="project">
+                        <div class="description">
+                            <h3>Mandrofy</h3>
+                            <p>This site was written with responsive design in mind. 
+                                Although still doesn't have real functionalities, the design is optimaized for every screen size.</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </div>
+                        <div class="project-img-and-link">
+                            <img class="projectImg" src="/images/imagify.png" />
+                            <a class="website-link" href="https://mandrofy.netlify.app/" target="_blank">Visit Website</a>
+                        </div>  
+                    </div>
+                    <hr />
+                    <div class="project">
+                        <div class="description">
+                            <h3>Movie Watchlist</h3>
+                            <p>This site allows to search for movies inside of a database and add 
+                                them into your watchlist. It uses API to get the movies data and the watchlist 
+                                is saved into the user's machine local storage.</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                        <div class="project-img-and-link">
+                            <img class="projectImg" src="/images/Movie_Finder.png" />
+                            <a 
+                                class="website-link" 
+                                href="https://movies-watchlist-proj.netlify.app/" 
+                                target="_blank">Visit Website</a>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="project">
+                        <div class="description">
+                            <h3>Music Picker</h3>
+                            <p>This site search for songs based on the emotion selected by the user. 
+                                Song's data is saved into the site itself, is not using an API. 
+                                The data is classified with emotion tags, based on the selected emotion 
+                                the site returns a random song according to the tag.</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                        <div class="project-img-and-link">
+                            <img class="projectImg" src="/images/Music_Picker.png" />
+                            <a class="website-link" href="https://music-picker.netlify.app/" target="_blank">Visit Website</a>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="project">
+                        <div class="description">
+                            <h3>Password Generator</h3>
+                            <p>This simple website generates two safe random password of 15 character length each. 
+                                Once the password is created, by clicking on the password field the password's 
+                                value got saved into the clipboard.</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                        <div class="project-img-and-link">
+                            <img class="projectImg" src="/images/Password_Generator.png" />
+                            <a class="website-link" href="https://my-secure-password-generator.netlify.app/" target="_blank">Visit Website</a>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="project">
+                        <div class="description">
+                            <h3>Vanlife</h3>
+                            <p>This website is written in ReactJSX. You can navigate through the different 
+                                pages and search for the best van to take your trip. You can see the description 
+                                of each van and price per day, however as this is a project for study only, 
+                                you won't be able to rent the van.</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                            </ul>
+                        </div>
+                        <div class="project-img-and-link">
+                            <img class="projectImg" src="/images/Vanlife.png" />
+                            <a class="website-link" href="https://vanlife-proj.netlify.app/" target="_blank">Visit Website</a>
+                        </div>
+                    </div>
+                    <hr />
+            </section>
+            <section class="about index" id="about">
+                <h2>About Me</h2>
+                <div class="about-content-container">
+                    <img class="my-photo" src="/images/my_pic_black&white.jpg" />
+                    <div class="about-text">
+                        <p>I'm a Front-End Developer and Designer based in Barcelona, ES. 
+                            I love building user-friendly apps that solve real world problems. 
+                            My specialities include JavaScript, CSS and ReactJSX.</p>
+                        <p>My background is in sales and customer service. And I love dogs.</p>
+                    </div>
+                </div>
+                <hr />
+            </section>
+            <section class="contacts index" id="contacts">
+                <h2>Get in Touch</h2>
+                <div>
+                    <p>Are you looking for a user-friendly website to represent your product or business? 
+                        Or want to ask some questions? Feel free to let me know. I will do my best to respond back!! 
+                        The quickest way to reach out to me is via email.</p>
+                        <a href="mailto:nemesink@gmail.com" class="personal-email">nemesink@gmail.com</a>
+                </div>
+                <a class="back-to-top" href="#nav">
+                    <span class="material-symbols-outlined arrow">
+                    arrow_upward
+                    </span>
+                </a>
+            </section>
+        </main>
+        <footer>
+            <a href="https://github.com/m4ndr0" target="_blank">
+                <img class="contacts-image" src="images/github.svg"/>
+            </a>
+            <img class="contacts-image linkedin" src="images/linkedin.svg"/>
+            <span class="material-symbols-outlined">
+                mail
+                </span>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>

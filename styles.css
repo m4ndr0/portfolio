@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    background-color: rgb(23, 23, 23);
+    color: rgb(223, 225, 226);
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+main {
+    background-color: black;
+    width: cover;
+}
+
+.presention {
+    padding: 80% 20px;
+    margin: 0;
+    background-image: url("/images/rain_black&white.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.presention > h1 {
+    font-size: 2rem;
+}
+
+.presention > p {
+    text-decoration: underline;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 20px black;
+}
+
+.getInTouchBtn, .personal-email, .back-to-top {
+    background-color: aliceblue;
+    padding: 5px 7px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: crimson;
+    display: inline-flex;
+    margin: 0;
+    cursor: pointer;
+}
+
+.project {
+    margin-bottom: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.myWork, .about, .contacts {
+    margin: auto;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.myWork > h2, .about > h2, .contacts > h2 {
+    text-decoration: underline;
+    text-decoration-color: crimson;
+}
+
+.description {
+    margin-top: 40px;
+    letter-spacing: 1px;
+    max-width: 400px;
+}
+
+.projectImg, .my-photo {
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.website-link {
+    font-size: 1.05rem;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+.my-photo {
+    max-width: 400px;
+    margin: auto;
+}
+
+
+.contacts {
+    margin-bottom: 40px;
+    max-width: 1200px;
+
+}
+
+.contacts-image {
+    width: 40px;
+}
+
+.linkedin {
+    margin: 0 15px;
+}
+
+.material-symbols-outlined {
+    font-size: 50px;
+}
+
+.about-content-container {
+    margin-bottom: 40px;
+}
+
+
+.personal-email {
+    margin-top: 10px;
+}
+
+.back-to-top {
+    margin-top: 40px;
+    margin-right: 0;
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        font-size: 1.5rem;
+        padding: 30px;
+    }
+
+    .index {
+        font-size: 1.2rem;
+    }
+
+    .presention {
+        padding: 70% 20px;
+        height: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .presention > h1 {
+        margin-top: -170px;
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+    .presention > p {
+        font-size: 1.8rem;
+    }
+    
+    .getInTouchBtn {
+        font-size: 1.5rem;
+        width: fit-content;
+    }
+
+    .project {
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 60%;
+        margin: auto;
+        margin-right: 20px;
+        font-size: 120%;
+    }
+
+    .project-img-and-link {
+        width: 500px;
+        margin: auto;
+    }
+
+    .about-content-container {
+        display: flex;
+    }
+    .about-content-container > div {
+        width: 40%;
+        margin: auto;
+        font-size: 100%;
+    }
+
+    .my-photo {
+        width: 60%;
+        margin-right: 20px;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts > p, .contacts > a , .arrow{
+        font-size: 120%;
+    }
+
+    .back-to-top {
+        margin-left: auto;
+        width: fit-content;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .index {
+        font-size: 1.6rem;
+    }
+
+    .presention {
+        padding: 60% 20px;
+    }
+    
+    .presention > h1 {
+        margin-top: -150px;
+    }
+
+    .description > p, .description > ul {
+        font-size: 1.3rem;
+        margin: 40px auto;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .presention {
+        padding: 50% 20px;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+
+}
+
+@media screen and (min-width: 1200px) {
+    .presention {
+        padding: 25% 20px;
+    }
+
+    .index {
+        margin-left: 150px;
+    }
+}
