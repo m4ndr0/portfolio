@@ -141,14 +141,12 @@ main {
     font-size: 20px;
 }
 
-.footer-contacts-container {
+footer {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
 
 @media screen and (min-width: 600px) {
     header {
