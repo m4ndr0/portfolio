@@ -119,6 +119,7 @@ main {
     margin: 0 15px;
 }
 
+
 .material-symbols-outlined {
     font-size: 50px;
 }
@@ -141,7 +142,7 @@ main {
     font-size: 20px;
 }
 
-footer {
+.footer-contacts-container {
     padding: 20px;
     display: flex;
     align-items: center;
