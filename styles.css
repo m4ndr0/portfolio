@@ -99,6 +99,11 @@ main {
     text-decoration: underline;
     margin-left: 10px;
 }
+
+.pixel-and-pixel {
+    box-shadow: 0 0 4px aliceblue;
+}
+
 .my-photo {
     max-width: 400px;
     margin: auto;
@@ -147,6 +152,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.block {
+    display: block;
 }
 
 @media screen and (min-width: 600px) {
