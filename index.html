@@ -9,29 +9,32 @@
         <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
         <link href="styles.css" rel="stylesheet">
+
     </head>
     <body>
-        <header>
-            <nav id="nav">
-                <a href="#myWork" class="work">Works</a>
-                <a href="#about">About</a>
-                <a href="#contacts">Contacts</a>
-            </nav>
-        </header>
+        <nav id="nav">
+            <a href="#myWork" class="work">Works</a>
+            <a href="#about">About</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
         <main>
-            <section class="presention">
-                <h1>Alessandro Tuveri</h1>
-                <p>Front-End Developer based in Barcelona, ES</p>
-                <a href="#contacts" class="getInTouchBtn">Get in touch</a>
+            
+            <section class="presentation">
+                <div class="presentation-text-container">
+                    <h1>Hi, my name is Ale,</h1>
+                    <h2>I am a <span class="animated-text"></span></h2>
+                </div>
             </section>
+
+
             <section class="myWork index" id="myWork">
                 <h2 id="myWorks">My Works</h2>
-                    
-                    <div class="project">
+
+                    <div class="project hidden">
                         <div class="description">
                             <h3>Music Picker</h3>
-                            <p>This site search for songs based on the emotion selected by the user. 
-                                The data is classified with emotion tags, based on the selected emotion 
+                            <p>This site search for songs based on the emotion selected by the user.
+                                The data is classified with emotion tags, based on the selected emotion
                                 the site returns a random song according to the tag.</p>
                             <ul>
                                 <li>HTML</li>
@@ -40,17 +43,17 @@
                             </ul>
                         </div>
                         <div class="project-img-and-link">
-                            <img class="projectImg" src="/images/Music_Picker.png" />
+                            <img class="projectImg" src="public/images/Music_Picker.png" />
                             <a class="website-link" href="https://music-picker.netlify.app/" target="_blank">Visit Website</a>
                         </div>
                     </div>
                     <hr />
-                    <div class="project">
+                    <div class="project hidden">
                         <div class="description">
                             <h3>Vanlife</h3>
-                            <p>This website is written in ReactJSX. You can navigate through 
-                                pages and search for the best van to take your trip. You can see the description 
-                                of each van and the price per day. However, as this is a project for study purpose only, 
+                            <p>This website is written in ReactJSX. You can navigate through
+                                pages and search for the best van to take your trip. You can see the description
+                                of each van and the price per day. However, as this is a project for study purpose only,
                                 you won't be able to rent the van.</p>
                             <ul>
                                 <li>HTML</li>
@@ -60,16 +63,16 @@
                             </ul>
                         </div>
                         <div class="project-img-and-link">
-                            <img class="projectImg" src="/images/Vanlife.png" />
+                            <img class="projectImg" src="public/images/Vanlife.png" />
                             <a class="website-link" href="https://vanlife-proj.netlify.app/" target="_blank">Visit Website</a>
                         </div>
                     </div>
                     <hr />
-                    <div class="project">
+                    <div class="project hidden">
                         <div class="description">
                             <h3>Flare</h3>
-                            <p>Flare is kind of a social but with reducted functionalities. 
-                                You can create an account, set your profile picture and name, write and delete a post, reply to other posts and add likes. 
+                            <p>Flare is kind of a social but with reducted functionalities.
+                                You can create an account, set your profile picture and name, write and delete a post, reply to other posts and add likes.
                                 It uses Google Firebase and updates in real time. Come say "hi".</p>
                             <ul>
                                 <li>HTML</li>
@@ -78,16 +81,16 @@
                             </ul>
                         </div>
                         <div class="project-img-and-link">
-                            <img class="projectImg" src="/images/flare.png" />
+                            <img class="projectImg" src="public/images/flare.png" />
                             <a class="website-link" href="https://light-flare.netlify.app/" target="_blank">Visit Website</a>
                         </div>
                     </div>
                     <hr />
-                    <div class="project">
+                    <div class="project hidden">
                         <div class="description">
                             <h3>Pixel and Pixel</h3>
-                            <p>Pixel and Pixel is a card game. You can select your player and 
-                                fight against 5 different enemies using a 12 cards deck having 6 different type of actions. 
+                            <p>Pixel and Pixel is a card game. You can select your player and
+                                fight against 5 different enemies using a 12 cards deck having 6 different type of actions.
                                 Do you think you can defeat the final boss?!?</p>
                             <ul>
                                 <li>HTML</li>
@@ -96,16 +99,16 @@
                             </ul>
                         </div>
                         <div class="project-img-and-link">
-                            <img class="projectImg pixel-and-pixel" src="/images/pixel_and_pixel_SS.png" />
+                            <img class="projectImg pixel-and-pixel" src="public/images/pixel_and_pixel_SS.png" />
                             <a class="website-link" href="https://pixelandpixelgame.netlify.app/" target="_blank">Visit Website</a>
                         </div>
                     </div>
                     <hr />
-                    <div class="project">
+                    <div class="project hidden">
                         <div class="description">
                             <h3>Strange Little Things</h3>
-                            <p>Strange Little Things is an avatar generator. 
-                                Click on the generate button to create a random avatar and download it into your device. 
+                            <p>Strange Little Things is an avatar generator.
+                                Click on the generate button to create a random avatar and download it into your device.
                                 Currently you can generate up to 3,794,560 different combinations.</p>
                             <ul>
                                 <li>HTML</li>
@@ -114,18 +117,19 @@
                             </ul>
                         </div>
                         <div class="project-img-and-link">
-                            <img class="projectImg" src="/images/strange_little_things_SS.png" />
-                            <a class="website-link" href="https://strangelittlethings.co/" target="_blank">Visit Website</a>
+                            <img class="projectImg" src="public/images/strange_little_things_SS.png" />
+                            <a class="website-link" href="https://strangelittlethings.co" target="_blank">Visit Website</a>
                         </div>
                     </div>
                     <hr />
             </section>
-            <section class="about index" id="about">
+
+            <section class="about index hidden" id="about">
                 <h2>About Me</h2>
                 <div class="about-content-container">
-                    <img class="my-photo" src="/images/my_pic_black&white.jpg" />
+                    <img class="my-photo" src="public/images/my_pic_black&white.jpg" />
                     <div class="about-text">
-                        <p>Hi, my name is Ale, I'm a Front-End Developer and Designer based in Barcelona, ES. 
+                        <p>Hi, my name is Ale, I'm a Front-End Developer and Designer based in Barcelona, ES.
                             I love building user-friendly apps, even if they don't solve any real world problem, just for fun!
                             I'm passionated about technologies, videogames and art... and I love dogs.
                             <span class="block">My specialities include HTML, CSS, JavaScript and React.</span>
@@ -134,11 +138,12 @@
                 </div>
                 <hr />
             </section>
-            <section class="contacts index" id="contacts">
+
+            <section class="contacts index hidden" id="contacts">
                 <h2>Get in Touch</h2>
                 <div>
-                    <p>Are you looking for a user-friendly website to represent your product or business? 
-                        Or want to ask some questions? Feel free to let me know. I will do my best to respond back!! 
+                    <p>Are you looking for a user-friendly website to represent your product or business?
+                        Or want to ask some questions? Feel free to let me know. I will do my best to respond back!!
                         The quickest way to reach out to me is via email.</p>
                         <a href="mailto:nemesink@gmail.com" class="personal-email">nemesink@gmail.com</a>
                 </div>
@@ -148,14 +153,15 @@
                     </span>
                 </a>
             </section>
+
         </main>
         <footer>
             <div class="footer-contacts-container">
                 <a href="https://github.com/m4ndr0" target="_blank">
-                    <img class="contacts-image" src="images/github.svg" alt="Github's logo icon"/>
+                    <img class="contacts-image" src="public/images/github.svg" alt="Github's logo icon"/>
                 </a>
                 <a href="https://www.linkedin.com/in/alessandro-tuveri-67471a191/" target="_blank">
-                    <img class="contacts-image linkedin" src="images/linkedin.svg" alt="LinkedIn's logo icon"/>
+                    <img class="contacts-image linkedin" src="public/images/linkedin.svg" alt="LinkedIn's logo icon"/>
                 </a>
                 <a href="mailto:nemesink@gmail.com">
                     <span class="material-symbols-outlined email-icon">
@@ -164,6 +170,6 @@
                 </a>
             </div>
         </footer>
-        <script src="index.js"></script>
+        <script type="module" src="index.js"></script>
     </body>
 </html>
